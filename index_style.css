@@ -1,0 +1,304 @@
+/* ========================= */
+/* SMART UMS - LOGIC BLOOM UI */
+/* ========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:
+        radial-gradient(circle at top left,#7c3aed33,transparent 40%),
+        radial-gradient(circle at bottom right,#9333ea22,transparent 40%),
+        #09090f;
+    color:white;
+    min-height:100vh;
+}
+
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+    position:relative;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+    color:#fff;
+    letter-spacing:1px;
+}
+
+.menu-btn{
+    font-size:28px;
+    cursor:pointer;
+    color:white;
+}
+
+.dropdown{
+    position:absolute;
+    top:70px;
+    right:8%;
+    background:rgba(20,20,30,0.95);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:15px;
+    display:none;
+    min-width:220px;
+    overflow:hidden;
+    z-index:999;
+}
+
+.dropdown.show{
+    display:block;
+}
+
+.dropdown a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:14px 18px;
+    transition:0.3s;
+}
+
+.dropdown a:hover{
+    background:#7c3aed;
+}
+
+/* ========================= */
+/* HERO */
+/* ========================= */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#bdbdc7;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.btn{
+    text-decoration:none;
+    color:white;
+    padding:14px 26px;
+    border-radius:14px;
+    background:linear-gradient(135deg,#7c3aed,#9333ea);
+    transition:0.3s;
+    box-shadow:0 0 25px rgba(124,58,237,0.4);
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+}
+
+/* ========================= */
+/* STATS */
+/* ========================= */
+
+.stats{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.stat-card{
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,0.08);
+    padding:30px;
+    border-radius:25px;
+    text-align:center;
+}
+
+.stat-card h2{
+    color:#a855f7;
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+/* ========================= */
+/* AI SECTION */
+/* ========================= */
+
+.ai-box{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+    background:rgba(255,255,255,0.05);
+    padding:35px;
+    border-radius:30px;
+    border:1px solid rgba(255,255,255,0.08);
+}
+
+.ai-box h2{
+    margin-bottom:25px;
+    color:#c084fc;
+}
+
+.insight{
+    padding:16px;
+    margin-bottom:12px;
+    border-radius:15px;
+    background:rgba(124,58,237,0.12);
+    border-left:4px solid #a855f7;
+}
+
+/* ========================= */
+/* FEATURES */
+/* ========================= */
+
+.features{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+.features h2{
+    margin-bottom:40px;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.feature-card{
+    background:rgba(255,255,255,0.05);
+    padding:35px;
+    border-radius:25px;
+    border:1px solid rgba(255,255,255,0.08);
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-6px);
+    border-color:#9333ea;
+}
+
+/* ========================= */
+/* DASHBOARD PREVIEW */
+/* ========================= */
+
+.preview{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+}
+
+.preview h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.preview-card{
+    background:rgba(255,255,255,0.05);
+    border-radius:30px;
+    padding:35px;
+    border:1px solid rgba(255,255,255,0.08);
+}
+
+.preview-item{
+    display:flex;
+    justify-content:space-between;
+    padding:18px 0;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.preview-item:last-child{
+    border-bottom:none;
+}
+
+.preview-item span{
+    color:#a855f7;
+    font-weight:bold;
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer{
+    text-align:center;
+    padding:60px 20px;
+    margin-top:60px;
+    border-top:1px solid rgba(255,255,255,0.08);
+}
+
+footer h3{
+    margin-bottom:10px;
+    color:#c084fc;
+}
+
+footer p{
+    color:#bdbdc7;
+    margin-top:8px;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media(max-width:768px){
+
+    .hero{
+        padding:60px 20px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn{
+        width:250px;
+        text-align:center;
+    }
+
+    .navbar{
+        padding:20px;
+    }
+
+    .dropdown{
+        right:20px;
+    }
+}
