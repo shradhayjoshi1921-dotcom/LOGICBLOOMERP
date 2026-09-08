@@ -81,41 +81,6 @@ Logic Bloom ERP uses a modern glassmorphism-inspired interface with:
 - Mobile-friendly layouts
 - Academic performance indicators
 
-
-📂 Project Structure
-Logic-Bloom-ERP/
-│
-├── index.php
-├── db.php
-│
-├── principal_login.php
-├── principal_dashboard.php
-├── add_branch.php
-├── view_branches.php
-├── edit_branch.php
-├── delete_branch.php
-├── add_class.php
-├── view_class.php
-├── add_teacher.php
-├── manage_teachers.php
-├── salary.php
-│
-├── teacher_login.php
-├── teacher_dashboard.php
-├── attendance.php
-├── subjects.php
-├── marks.php
-│
-├── student_login.php
-├── student_dashboard.php
-│
-├── auth_principal.php
-├── logout.php
-├── style.css
-│
-└── database/
-    └── shradhay.sql
-
 File names may vary depending on the current version of the project.
 ⚙️ Installation & Setup
 1. Clone the Repository
