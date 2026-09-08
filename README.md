@@ -1,6 +1,7 @@
 🌸 Logic Bloom ERP
 Logic Bloom ERP is a web-based Educational Enterprise Resource Planning System designed to simplify and centralize the academic and administrative operations of an educational institution.
 The system provides separate modules for Principals, Teachers, and Students, allowing each user to access features relevant to their role. It manages branches, classes, teachers, students, subjects, attendance, marks, results, and salary records through a centralized relational database.
+
 🚀 Features
 👨‍💼 Principal Module
 - Principal registration and login
@@ -12,6 +13,7 @@ The system provides separate modules for Principals, Teachers, and Students, all
 - Teacher salary management
 - Academic overview and statistics
 - Principal-specific data isolation
+
 👨‍🏫 Teacher Module
 - Teacher authentication
 - Teacher dashboard
@@ -20,6 +22,7 @@ The system provides separate modules for Principals, Teachers, and Students, all
 - Marks and examination management
 - Academic record management
 - Access to assigned academic information
+
 👨‍🎓 Student Module
 - Student login
 - Personalized student dashboard
@@ -29,6 +32,7 @@ The system provides separate modules for Principals, Teachers, and Students, all
 - Grade calculation
 - Attendance percentage
 - Recent attendance records
+
 🛠️ Technologies Used
 Technology	Purpose
 PHP	Backend & server-side logic
@@ -55,6 +59,7 @@ Main Tables
 - salary_payments
 - notifications
 The database maintains relationships between principals, branches, classes, teachers, students, subjects, attendance, marks, and salary records.
+
 🔐 Security & Access Control
 The system implements:
 - Role-based authentication
@@ -65,6 +70,7 @@ The system implements:
 - Protected management pages
 - Database-level relationships
 Each principal's institutional data is scoped using their authenticated principal ID to prevent unrelated institutional records from appearing across accounts.
+
 🎨 User Interface
 Logic Bloom ERP uses a modern glassmorphism-inspired interface with:
 - Responsive dashboards
@@ -182,13 +188,16 @@ Possible future improvements include:
 - Mobile application
 - API integration
 - Advanced security and audit logs
+
 🎯 Project Objective
 The primary goal of Logic Bloom ERP is to digitize and centralize educational institution management by providing a single platform for academic and administrative activities.
 It reduces dependence on manual record keeping, improves accessibility to information, and provides different users with role-specific tools.
+
 👨‍💻 Developer
 Logic Bloom ERP
 Full-Stack Educational ERP Project
 Tech Stack:
 PHP MySQL/MariaDB HTML5 CSS3 JavaScript SQL
+
 📄 License
 This project is developed for educational and portfolio purposes. You may modify and extend it according to your requirements.
